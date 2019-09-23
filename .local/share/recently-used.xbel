@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///tmp/mozilla_karishma0/google-chrome-stable_current_amd64.deb" added="2019-09-20T10:56:04Z" modified="2019-09-20T10:56:04Z" visited="2019-09-20T10:56:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-09-20T10:56:04Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/karishma/Downloads/google-chrome-stable_current_amd64.deb" added="2019-09-20T11:00:10Z" modified="2019-09-20T11:00:10Z" visited="2019-09-20T11:00:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-09-20T11:00:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/karishma/Downloads/Python%20learning.rtf" added="2019-09-20T11:33:12Z" modified="2019-09-23T06:38:37Z" visited="2019-09-20T11:33:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/rtf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2019-09-20T11:43:51Z" count="2"/>
+          <bookmark:application name="LibreOffice 6.2" exec="&apos;soffice %u&apos;" modified="2019-09-23T06:38:37Z" count="37"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/karishma/Downloads/Karishma_Salaliya_DaytoDay_WorkDetails.ods" added="2019-09-20T11:33:15Z" modified="2019-09-23T06:48:38Z" visited="2019-09-20T11:33:15Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.oasis.opendocument.spreadsheet"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2019-09-23T06:13:33Z" count="2"/>
+          <bookmark:application name="LibreOffice 6.2" exec="&apos;soffice %u&apos;" modified="2019-09-23T06:48:38Z" count="22"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/karishma/hello.py" added="2019-09-20T12:54:02Z" modified="2019-09-20T12:54:02Z" visited="2019-09-20T12:54:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-09-20T12:54:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/karishma/numbers.py" added="2019-09-20T12:54:02Z" modified="2019-09-20T12:54:02Z" visited="2019-09-20T12:54:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-09-20T12:54:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/karishma/strings.py" added="2019-09-20T12:54:02Z" modified="2019-09-20T12:54:02Z" visited="2019-09-20T12:54:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-09-20T12:54:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/karishma/Downloads/PythonPractice-master.zip" added="2019-09-23T04:09:01Z" modified="2019-09-23T04:10:15Z" visited="2019-09-23T04:09:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2019-09-23T04:10:15Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

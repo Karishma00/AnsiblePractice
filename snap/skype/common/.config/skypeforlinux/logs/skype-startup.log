@@ -1,0 +1,43 @@
+
+(process:11878): Gtk-WARNING **: 11:49:54.800: Locale not supported by C library.
+	Using the fallback 'C' locale.
+libgvfscommon.so: cannot open shared object file: No such file or directory
+Failed to load module: /home/karishma/snap/skype/common/.cache/gio-modules/libgioremote-volume-monitor.so
+libgvfscommon.so: cannot open shared object file: No such file or directory
+Failed to load module: /home/karishma/snap/skype/common/.cache/gio-modules/libgvfsdbus.so
+
+(skypeforlinux:11878): Gtk-WARNING **: 11:50:04.403: GModule (/usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules/im-ibus.so) initialization check failed: GLib version too old (micro mismatch)
+
+(skypeforlinux:11878): Gtk-WARNING **: 11:50:04.403: Loading IM context type 'ibus' failed
+
+(skypeforlinux:11878): Gtk-WARNING **: 11:50:07.008: GModule (/usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules/im-ibus.so) initialization check failed: GLib version too old (micro mismatch)
+
+(skypeforlinux:11878): Gtk-WARNING **: 11:50:07.008: Loading IM context type 'ibus' failed
+
+(skypeforlinux:11878): Gtk-WARNING **: 11:50:07.014: GModule (/usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules/im-ibus.so) initialization check failed: GLib version too old (micro mismatch)
+
+(skypeforlinux:11878): Gtk-WARNING **: 11:50:07.015: Loading IM context type 'ibus' failed
+ioctl failed for wlan0, errno = 19 (No such device)
+ioctl failed for wlp2s0, errno = 19 (No such device)
+ioctl failed for wlp3s0, errno = 19 (No such device)
+ioctl failed for wlan0, errno = 19 (No such device)
+ioctl failed for wlp2s0, errno = 19 (No such device)
+ioctl failed for wlp3s0, errno = 19 (No such device)
+ioctl failed for wlan0, errno = 19 (No such device)
+ioctl failed for wlp2s0, errno = 19 (No such device)
+ioctl failed for wlp3s0, errno = 19 (No such device)
+libgvfscommon.so: cannot open shared object file: No such file or directory
+Failed to load module: /home/karishma/snap/skype/common/.cache/gio-modules/libgioremote-volume-monitor.so
+libgvfscommon.so: cannot open shared object file: No such file or directory
+Failed to load module: /home/karishma/snap/skype/common/.cache/gio-modules/libgvfsdbus.so
+libgvfscommon.so: cannot open shared object file: No such file or directory
+Failed to load module: /home/karishma/snap/skype/common/.cache/gio-modules/libgioremote-volume-monitor.so
+libgvfscommon.so: cannot open shared object file: No such file or directory
+Failed to load module: /home/karishma/snap/skype/common/.cache/gio-modules/libgvfsdbus.so
+ExceptionHandler::GenerateDump cloned child 13346
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+libgvfscommon.so: cannot open shared object file: No such file or directory
+Failed to load module: /home/karishma/snap/skype/common/.cache/gio-modules/libgioremote-volume-monitor.so
+libgvfscommon.so: cannot open shared object file: No such file or directory
+Failed to load module: /home/karishma/snap/skype/common/.cache/gio-modules/libgvfsdbus.so

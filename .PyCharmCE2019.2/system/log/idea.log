@@ -1,0 +1,693 @@
+2019-09-20 17:23:27,237 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-09-20 17:23:27,420 [    183]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 152 ms 
+2019-09-20 17:23:27,664 [    427]   INFO -        #com.intellij.idea.Main - IDE: PyCharm (build #PC-192.6603.34, 10 Sep 2019 20:48) 
+2019-09-20 17:23:27,664 [    427]   INFO -        #com.intellij.idea.Main - OS: Linux (5.0.0-13-generic, amd64) 
+2019-09-20 17:23:27,664 [    427]   INFO -        #com.intellij.idea.Main - JRE: 11.0.3+12-b304.56 (JetBrains s.r.o) 
+2019-09-20 17:23:27,664 [    427]   INFO -        #com.intellij.idea.Main - JVM: 11.0.3+12-b304.56 (OpenJDK 64-Bit Server VM) 
+2019-09-20 17:23:27,665 [    428]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djdk.attach.allowAttachSelf -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/karishma/java_error_in_PYCHARM_%p.log -XX:HeapDumpPath=/home/karishma/java_error_in_PYCHARM.hprof -Didea.paths.selector=PyCharmCE2019.2 -Djb.vmOptionsFile=/snap/pycharm-community/150/bin/pycharm64.vmoptions -Didea.platform.prefix=PyCharmCore 
+2019-09-20 17:23:27,665 [    428]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-09-20 17:23:28,121 [    884]   INFO - plication.impl.ApplicationImpl - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@5542cc02[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@4a64e257 
+2019-09-20 17:23:28,223 [    986]   INFO -        #com.intellij.idea.Main - WM detected: GNOME Shell 
+2019-09-20 17:23:41,558 [  14321]   INFO - .intellij.util.io.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://plugins.jetbrains.com/plugins/list/?uuid=8506031c-1443-4c74-8c45-5b1024ca1484&build=PC-192.6603.34 
+2019-09-20 17:23:49,402 [  22165]   INFO - tellij.diagnostic.LoadingPhase - Reached SPLASH loading phase 
+2019-09-20 17:23:49,674 [  22437]   INFO - llij.ide.plugins.PluginManager - Plugin 'Configuration Script' can't be loaded because: Plugin does not include any module dependency tags in its plugin.xml therefore is assumed legacy and can be loaded only in IntelliJ IDEA 
+2019-09-20 17:23:49,718 [  22481]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Copyright (192.6603.34), EditorConfig (192.6603.34), Git (192.6603.34), GitHub (192.6603.34), IDEA CORE (192.6603.34), IntelliLang (192.6603.34), Machine Learning Code Completion (192.6603.34), Mercurial (192.6603.34), Properties (192.6603.34), Python Copyright (192.6603.34), Python IntelliLang (192.6603.34), Python ReStructureText Integration (192.6603.34), Python Terminal (192.6603.34), ReStructuredText Support (192.6603.34), Settings Repository (192.6603.34), Shell Script (192.6603.34), Subversion (192.6603.34), Task Management (192.6603.34), Terminal (192.6603.34), TextMate bundles (192.6603.34), YAML (192.6603.34) 
+2019-09-20 17:23:49,719 [  22482]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: Configuration Script (192.6603.34) 
+2019-09-20 17:23:50,332 [  23095]   INFO - tellij.diagnostic.LoadingPhase - Reached CONFIGURATION_STORE_INITIALIZED loading phase 
+2019-09-20 17:23:50,456 [  23219]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted: '/home/karishma/.PyCharmCE2019.2/system/caches/names.dat' does not exist 
+2019-09-20 17:23:50,459 [  23222]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2019-09-20 17:23:50,507 [  23270]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /snap/pycharm-community/150/bin/fsnotifier64 
+2019-09-20 17:23:50,533 [  23296]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-09-20 17:23:51,128 [  23891]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 6), rebuilding... 
+2019-09-20 17:23:51,128 [  23891]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2019-09-20 17:23:51,256 [  24019]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-09-20 17:23:51,311 [  24074]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-09-20 17:23:51,320 [  24083]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2019-09-20 17:23:51,599 [  24362]   INFO - il.indexing.FileBasedIndexImpl - File index extensions iterated:162 
+2019-09-20 17:23:51,813 [  24576]   INFO - j.ide.ui.OptionsTopHitProvider - 42 ms spent to cache options in application 
+2019-09-20 17:23:51,981 [  24744]   INFO - tellij.diagnostic.LoadingPhase - Reached FRAME_SHOWN loading phase 
+2019-09-20 17:23:53,689 [  26452]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2019-09-20 17:23:54,015 [  26778]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-09-20 17:23:57,110 [  29873]   INFO - ndex.PrebuiltIndexProviderBase - Using prebuilt id-index from /home/karishma/.PyCharmCE2019.2/system/index/.persistent/prebuilt/Python/id-index.input 
+2019-09-20 17:23:57,203 [  29966]   INFO - ij.psi.stubs.StubUpdatingIndex - Following new file types will be indexed:XML,PythonStub,HTML,Python,Properties 
+2019-09-20 17:23:57,291 [  30054]   INFO - pl$FileIndexDataInitialization - Initialization done:5854 
+2019-09-20 17:23:57,326 [  30089]   INFO - exImpl$StubIndexInitialization - Initialization done:34 
+2019-09-20 17:23:59,552 [  32315]   WARN - til.ui.update.LazyUiDisposable - use application as a parent disposable 
+2019-09-20 17:24:13,018 [  45781]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 141 ms 
+2019-09-20 17:24:23,771 [  56534]   INFO - penapi.wm.impl.GlobalMenuLinux - created instance of GlobalMenuLinux for xid=0x3800238 
+2019-09-20 17:24:24,832 [  57595]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 43 ms 
+2019-09-20 17:24:24,834 [  57597]   INFO - ns.python.sdk.PythonSdkUpdater - Bogus sys.path entry /usr/lib/python37.zip 
+2019-09-20 17:24:24,836 [  57599]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK Python 3.7 (/usr/bin/python3.7)): /home/karishma/.PyCharmCE2019.2/system/python_stubs/-1247971762 
+2019-09-20 17:24:24,839 [  57602]   INFO - ns.python.sdk.PythonSdkUpdater - User skeletons directory for SDK Python 3.7 (/usr/bin/python3.7)): /snap/pycharm-community/150/helpers/python-skeletons 
+2019-09-20 17:24:25,028 [  57791]   INFO - rnal.statistic.DeviceIdManager - Generating new Device ID 
+2019-09-20 17:24:25,029 [  57792]   INFO - eventLog.EventLogConfiguration - Generating salt for the device 
+2019-09-20 17:24:25,072 [  57835]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2019-09-20 17:24:25,251 [  58014]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2019-09-20 17:24:26,536 [  59299]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 3 millis (read time: 2) 
+2019-09-20 17:24:26,637 [  59400]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 704ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:24:26,657 [  59420]   INFO - j.ide.ui.OptionsTopHitProvider - 683 ms spent to cache options in project 
+2019-09-20 17:24:26,740 [  59503]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.7 /snap/pycharm-community/150/helpers/packaging_tool.py pyvenv /home/karishma/venv 
+2019-09-20 17:24:26,904 [  59667]   INFO - .diagnostic.PerformanceWatcher - Pushing Python language level to 6 roots in 1 SDKs took 1875ms; general responsiveness: ok; EDT responsiveness: 0/2 sluggish, 1/2 very slow 
+2019-09-20 17:24:26,916 [  59679]   INFO - .diagnostic.PerformanceWatcher - Pushing Python language level to 6 roots in 1 SDKs took 11ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:24:27,023 [  59786]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /home/karishma/venv/bin/python /snap/pycharm-community/150/helpers/packaging_tool.py list 
+2019-09-20 17:24:27,024 [  59787]   INFO - .intellij.util.EnvironmentUtil - loading shell env: /bin/bash -c . '/home/karishma/venv/bin/activate';'/snap/pycharm-community/150/bin/printenv.py' '/tmp/intellij-shell-env.tmp' 
+2019-09-20 17:24:27,126 [  59889]   INFO - .intellij.util.EnvironmentUtil - shell environment loaded (60 vars) 
+2019-09-20 17:24:27,172 [  59935]   INFO - packaging.PyPackageManagerImpl - Error: Python packaging tool 'setuptools' not found
+
+Exit code 3 
+2019-09-20 17:24:27,185 [  59948]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /home/karishma/venv/bin/python /snap/pycharm-community/150/helpers/packaging_tool.py untar /snap/pycharm-community/150/helpers/setuptools-40.8.0.tar.gz 
+2019-09-20 17:24:27,303 [  60066]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /home/karishma/venv/bin/python /tmp/tmpmr14yhirpycharm-management/setuptools-40.8.0/setup.py install 
+2019-09-20 17:24:27,343 [  60106]   INFO - packaging.PyPackageManagerImpl - Traceback (most recent call last):
+  File "/tmp/tmpmr14yhirpycharm-management/setuptools-40.8.0/setup.py", line 11, in <module>
+    import setuptools
+  File "/tmp/tmpmr14yhirpycharm-management/setuptools-40.8.0/setuptools/__init__.py", line 6, in <module>
+    import distutils.core
+ModuleNotFoundError: No module named 'distutils.core'
+
+Exit code 1 
+2019-09-20 17:24:32,319 [  65082]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 5403ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:24:33,277 [  66040]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 956ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:24:33,280 [  66043]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 3351 files to update 
+2019-09-20 17:24:36,682 [  69445]   INFO - ndex.PrebuiltIndexProviderBase - Using prebuilt sdk-stubs from /home/karishma/.PyCharmCE2019.2/system/index/.persistent/prebuilt/Python/sdk-stubs.input 
+2019-09-20 17:24:36,686 [  69449]   INFO - .stubs.StubSerializationHelper - serialized properties.prop is ignored in unmodifiable stub serialization manager 
+2019-09-20 17:24:36,686 [  69449]   INFO - .stubs.StubSerializationHelper - serialized properties.propertieslist is ignored in unmodifiable stub serialization manager 
+2019-09-20 17:24:36,746 [  69509]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-09-20 17:24:36,750 [  69513]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-09-20 17:24:37,216 [  69979]   WARN - tartup.impl.StartupManagerImpl - /home/karishma/.idea 
+java.io.FileNotFoundException: /home/karishma/.idea
+	at com.intellij.openapi.util.io.FileUtil.isFileSystemCaseSensitive(FileUtil.java:1467)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.checkFsSanity(StartupManagerImpl.java:329)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivities(StartupManagerImpl.java:237)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.lambda$null$6(ProjectManagerImpl.java:411)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:312)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.doRun(LaterInvocator.java:433)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.runNextEvent(LaterInvocator.java:416)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:399)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:878)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:827)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:466)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:704)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:465)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2019-09-20 17:24:37,232 [  69995]   INFO - tellij.diagnostic.LoadingPhase - Reached PROJECT_OPENED loading phase 
+2019-09-20 17:24:37,262 [  70025]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update canceled 
+2019-09-20 17:24:37,286 [  70049]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 4 to update, calculated in 1ms 
+2019-09-20 17:24:37,288 [  70051]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 13421 ms 
+2019-09-20 17:24:37,533 [  70296]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 247ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:24:37,691 [  70454]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/karishma' karishmaProjectFrameBounds took 11 ms 
+2019-09-20 17:24:37,910 [  70673]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 642 ms 
+2019-09-20 17:24:38,049 [  70812]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 479ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:24:38,183 [  70946]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 133ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:24:38,183 [  70946]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 974 files to update 
+2019-09-20 17:24:42,254 [  75017]   INFO - ings.impl.UpdateCheckerService - channel: release 
+2019-09-20 17:24:42,527 [  75290]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 20/09/19, 5:23 PM) 
+2019-09-20 17:24:42,700 [  75463]   INFO - rationStore.ComponentStoreImpl - Saving appPropertiesComponent took 14 ms 
+2019-09-20 17:24:43,033 [  75796]   INFO - gnostic.MemorySizeConfigurator - Physical memory 7874M, minimum memory size 128M, -Xmx adjusted from 750M to 984M 
+2019-09-20 17:24:43,488 [  76251]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 20/09/19, 5:23 PM) 
+2019-09-20 17:24:43,818 [  76581]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 5635ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:24:43,821 [  76584]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 2 to update, calculated in 0ms 
+2019-09-20 17:24:43,828 [  76591]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 7ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:24:43,830 [  76593]   INFO - tellij.diagnostic.LoadingPhase - Reached INDEXING_FINISHED loading phase 
+2019-09-20 17:25:19,763 [ 112526]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/karishma' karishmaRunManager took 84 ms 
+2019-09-20 17:25:19,814 [ 112577]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 180 ms 
+2019-09-20 17:25:20,476 [ 113239]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 20/09/19, 5:23 PM) 
+2019-09-20 17:25:20,758 [ 113521]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 6 to update, calculated in 101ms 
+2019-09-20 17:25:20,908 [ 113671]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 150ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:25:23,386 [ 116149]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.7 /snap/pycharm-community/150/helpers/packaging_tool.py list 
+2019-09-20 17:25:23,386 [ 116149]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.7 /snap/pycharm-community/150/helpers/packaging_tool.py list 
+2019-09-20 17:25:23,804 [ 116567]   INFO - hon.packaging.PyPIPackageCache - Package cache /home/karishma/.PyCharmCE2019.2/system/python_packages/pypi-cache.json was not found 
+2019-09-20 17:25:28,693 [ 121456]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 17 ms 
+2019-09-20 17:25:28,693 [ 121456]   INFO - ns.python.sdk.PythonSdkUpdater - Bogus sys.path entry /usr/lib/python37.zip 
+2019-09-20 17:25:28,694 [ 121457]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK Python 3.7 (/usr/bin/python3.7)): /home/karishma/.PyCharmCE2019.2/system/python_stubs/-1247971762 
+2019-09-20 17:25:28,694 [ 121457]   INFO - ns.python.sdk.PythonSdkUpdater - User skeletons directory for SDK Python 3.7 (/usr/bin/python3.7)): /snap/pycharm-community/150/helpers/python-skeletons 
+2019-09-20 17:25:28,712 [ 121475]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.7 /snap/pycharm-community/150/helpers/packaging_tool.py list 
+2019-09-20 17:25:28,717 [ 121480]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-09-20 17:25:28,726 [ 121489]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-09-20 17:25:28,730 [ 121493]   INFO - python.packaging.PyPackageUtil - Refreshing installed packages for SDK /usr/bin/python3.7 
+2019-09-20 17:25:28,730 [ 121493]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.7 /snap/pycharm-community/150/helpers/packaging_tool.py list 
+2019-09-20 17:25:28,764 [ 121527]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK Python 3.7 (/usr/bin/python3.7) 
+2019-09-20 17:25:28,768 [ 121531]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python3.7 
+2019-09-20 17:25:28,905 [ 121668]   INFO - .diagnostic.PerformanceWatcher - Pushing Python language level to 6 roots in 1 SDKs took 12ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:25:29,141 [ 121904]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/karishma' karishmaRunManager took 11 ms 
+2019-09-20 17:25:29,197 [ 121960]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 413 ms 
+2019-09-20 17:25:29,201 [ 121964]   INFO - tPregeneratedSkeletonsProvider - Home path is /snap/pycharm-community/150 
+2019-09-20 17:25:29,291 [ 122054]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 258 ms 
+2019-09-20 17:25:29,495 [ 122258]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 541ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:25:29,771 [ 122534]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/karishma' karishmaCommitMessageInspectionProfile took 16 ms, RunManager took 14 ms 
+2019-09-20 17:25:29,771 [ 122534]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 480 ms 
+2019-09-20 17:25:29,829 [ 122592]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 334ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:25:29,839 [ 122602]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 2374 files to update 
+2019-09-20 17:25:37,798 [ 130561]   INFO - .skeletons.PySkeletonGenerator - Rebuilding builtin skeletons took 8583 ms 
+2019-09-20 17:25:37,799 [ 130562]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PIL._imaging 
+2019-09-20 17:25:38,095 [ 130858]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PIL._imagingcms 
+2019-09-20 17:25:38,408 [ 131171]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PIL._imagingft 
+2019-09-20 17:25:38,674 [ 131437]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PIL._imagingmath 
+2019-09-20 17:25:38,903 [ 131666]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PIL._imagingmorph 
+2019-09-20 17:25:39,197 [ 131960]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PIL._webp 
+2019-09-20 17:25:39,510 [ 132273]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _asyncio 
+2019-09-20 17:25:39,862 [ 132625]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _bz2 
+2019-09-20 17:25:40,165 [ 132928]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _cffi_backend 
+2019-09-20 17:25:40,542 [ 133305]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_cn 
+2019-09-20 17:25:40,780 [ 133543]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_hk 
+2019-09-20 17:25:41,033 [ 133796]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_iso2022 
+2019-09-20 17:25:41,333 [ 134096]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_jp 
+2019-09-20 17:25:41,565 [ 134328]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_kr 
+2019-09-20 17:25:41,918 [ 134681]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_tw 
+2019-09-20 17:25:42,260 [ 135023]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _contextvars 
+2019-09-20 17:25:42,568 [ 135331]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _crypt 
+2019-09-20 17:25:42,820 [ 135583]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _csv 
+2019-09-20 17:25:43,270 [ 136033]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _ctypes 
+2019-09-20 17:25:43,561 [ 136324]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _ctypes_test 
+2019-09-20 17:25:43,950 [ 136713]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _curses 
+2019-09-20 17:25:44,252 [ 137015]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _curses_panel 
+2019-09-20 17:25:44,528 [ 137291]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _dbm 
+2019-09-20 17:25:44,929 [ 137692]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _dbus_bindings 
+2019-09-20 17:25:46,163 [ 138926]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _dbus_glib_bindings 
+2019-09-20 17:25:46,456 [ 139219]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _decimal 
+2019-09-20 17:25:46,773 [ 139536]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _gdbm 
+2019-09-20 17:25:47,031 [ 139794]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _hashlib 
+2019-09-20 17:25:47,332 [ 140095]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _json 
+2019-09-20 17:25:47,559 [ 140322]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _lsprof 
+2019-09-20 17:25:47,823 [ 140586]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _lzma 
+2019-09-20 17:25:48,099 [ 140862]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _multibytecodec 
+2019-09-20 17:25:48,349 [ 141112]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _multiprocessing 
+2019-09-20 17:25:48,702 [ 141465]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _opcode 
+2019-09-20 17:25:49,047 [ 141810]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _queue 
+2019-09-20 17:25:49,353 [ 142116]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _sqlite3 
+2019-09-20 17:25:49,639 [ 142402]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _ssl 
+2019-09-20 17:25:50,011 [ 142774]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _testbuffer 
+2019-09-20 17:25:50,206 [ 142969]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _testcapi 
+2019-09-20 17:25:50,494 [ 143257]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _testimportmultiple 
+2019-09-20 17:25:50,717 [ 143480]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _testmultiphase 
+2019-09-20 17:25:51,010 [ 143773]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _uuid 
+2019-09-20 17:25:51,213 [ 143976]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _xxtestfuzz 
+2019-09-20 17:25:51,419 [ 144182]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _yaml 
+2019-09-20 17:25:51,872 [ 144635]   INFO - .skeletons.PySkeletonRefresher - Skeleton for apt_inst 
+2019-09-20 17:25:52,124 [ 144887]   INFO - .skeletons.PySkeletonRefresher - Skeleton for apt_pkg 
+2019-09-20 17:25:52,217 [ 144980]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 22378ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:25:52,219 [ 144982]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 3 to update, calculated in 0ms 
+2019-09-20 17:25:52,294 [ 145057]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 74ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:25:52,490 [ 145253]   INFO - .skeletons.PySkeletonRefresher - Skeleton for audioop 
+2019-09-20 17:25:52,677 [ 145440]   INFO - .skeletons.PySkeletonRefresher - Skeleton for brlapi 
+2019-09-20 17:25:52,839 [ 145602]   INFO - .skeletons.PySkeletonRefresher - Skeleton for cairo._cairo 
+2019-09-20 17:25:53,068 [ 145831]   INFO - .skeletons.PySkeletonRefresher - Skeleton for cryptography.hazmat.bindings._constant_time 
+2019-09-20 17:25:53,220 [ 145983]   INFO - .skeletons.PySkeletonRefresher - Skeleton for cryptography.hazmat.bindings._openssl 
+2019-09-20 17:25:54,954 [ 147717]   INFO - .skeletons.PySkeletonRefresher - Skeleton for cryptography.hazmat.bindings._padding 
+2019-09-20 17:25:55,075 [ 147838]   INFO - .skeletons.PySkeletonRefresher - Skeleton for cups 
+2019-09-20 17:25:55,443 [ 148206]   INFO - .skeletons.PySkeletonRefresher - Skeleton for cupsext 
+2019-09-20 17:25:55,588 [ 148351]   INFO - .skeletons.PySkeletonRefresher - Skeleton for gi._gi 
+2019-09-20 17:25:55,861 [ 148624]   INFO - .skeletons.PySkeletonRefresher - Skeleton for gi._gi_cairo 
+2019-09-20 17:25:56,025 [ 148788]   INFO - .skeletons.PySkeletonRefresher - Skeleton for google.protobuf.internal._api_implementation 
+2019-09-20 17:25:56,308 [ 149071]   INFO - .skeletons.PySkeletonRefresher - Skeleton for google.protobuf.pyext._message 
+2019-09-20 17:25:56,592 [ 149355]   INFO - .skeletons.PySkeletonGenerator - Skeleton for google.protobuf.pyext._message had some minor errors on /usr/bin/python3.7. stderr: --
+/snap/pycharm-community/150/helpers/generator3.py:608: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  __import__(name)  # sys.modules will fill up with what we want
+-- 
+2019-09-20 17:25:56,592 [ 149355]   INFO - .skeletons.PySkeletonRefresher - Skeleton for hpmudext 
+2019-09-20 17:25:56,718 [ 149481]   INFO - .skeletons.PySkeletonRefresher - Skeleton for markupsafe._speedups 
+2019-09-20 17:25:56,868 [ 149631]   INFO - .skeletons.PySkeletonRefresher - Skeleton for mmap 
+2019-09-20 17:25:56,994 [ 149757]   INFO - .skeletons.PySkeletonRefresher - Skeleton for nacl._sodium 
+2019-09-20 17:25:57,285 [ 150048]   INFO - .skeletons.PySkeletonRefresher - Skeleton for netifaces 
+2019-09-20 17:25:57,401 [ 150164]   INFO - .skeletons.PySkeletonRefresher - Skeleton for nis 
+2019-09-20 17:25:57,518 [ 150281]   INFO - .skeletons.PySkeletonRefresher - Skeleton for ossaudiodev 
+2019-09-20 17:25:57,632 [ 150395]   INFO - .skeletons.PySkeletonRefresher - Skeleton for parser 
+2019-09-20 17:25:57,750 [ 150513]   INFO - .skeletons.PySkeletonRefresher - Skeleton for pcardext 
+2019-09-20 17:25:57,865 [ 150628]   INFO - .skeletons.PySkeletonRefresher - Skeleton for readline 
+2019-09-20 17:25:58,132 [ 150895]   INFO - .skeletons.PySkeletonRefresher - Skeleton for reportlab.graphics._renderPM 
+2019-09-20 17:25:58,344 [ 151107]   INFO - .skeletons.PySkeletonRefresher - Skeleton for reportlab.lib._rl_accel 
+2019-09-20 17:25:58,478 [ 151241]   INFO - .skeletons.PySkeletonRefresher - Skeleton for resource 
+2019-09-20 17:25:58,595 [ 151358]   INFO - .skeletons.PySkeletonRefresher - Skeleton for scanext 
+2019-09-20 17:25:58,716 [ 151479]   INFO - .skeletons.PySkeletonRefresher - Skeleton for simplejson._speedups 
+2019-09-20 17:25:58,863 [ 151626]   INFO - .skeletons.PySkeletonRefresher - Skeleton for systemd._daemon 
+2019-09-20 17:25:59,016 [ 151779]   INFO - .skeletons.PySkeletonRefresher - Skeleton for systemd._journal 
+2019-09-20 17:25:59,136 [ 151899]   INFO - .skeletons.PySkeletonRefresher - Skeleton for systemd._reader 
+2019-09-20 17:25:59,347 [ 152110]   INFO - .skeletons.PySkeletonRefresher - Skeleton for systemd.id128 
+2019-09-20 17:25:59,501 [ 152264]   INFO - .skeletons.PySkeletonRefresher - Skeleton for systemd.login 
+2019-09-20 17:25:59,632 [ 152395]   INFO - .skeletons.PySkeletonRefresher - Skeleton for talloc 
+2019-09-20 17:25:59,768 [ 152531]   INFO - .skeletons.PySkeletonRefresher - Skeleton for termios 
+2019-09-20 17:25:59,889 [ 152652]   INFO - .skeletons.PySkeletonRefresher - Skeleton for xxlimited 
+2019-09-20 17:26:00,008 [ 152771]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 22209 ms 
+2019-09-20 17:26:00,041 [ 152804]   INFO - python.packaging.PyPackageUtil - Refreshing installed packages for SDK /usr/bin/python3.7 
+2019-09-20 17:26:00,041 [ 152804]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.7 /snap/pycharm-community/150/helpers/packaging_tool.py list 
+2019-09-20 17:26:00,092 [ 152855]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background scan of packages for SDK Python 3.7 (/usr/bin/python3.7) 
+2019-09-20 17:26:00,092 [ 152855]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.7 /snap/pycharm-community/150/helpers/packaging_tool.py list 
+2019-09-20 17:26:00,211 [ 152974]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 399 to update, calculated in 83ms 
+2019-09-20 17:26:01,647 [ 154410]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 1436ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:26:01,648 [ 154411]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 0 to update, calculated in 0ms 
+2019-09-20 17:26:28,618 [ 181381]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 453 to update, calculated in 70ms 
+2019-09-20 17:26:29,849 [ 182612]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 1231ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:26:29,850 [ 182613]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 0 to update, calculated in 0ms 
+2019-09-20 17:26:35,099 [ 187862]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 1 to update, calculated in 1ms 
+2019-09-20 17:26:35,124 [ 187887]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 24ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:27:37,709 [ 250472]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 5 to update, calculated in 1ms 
+2019-09-20 17:27:37,736 [ 250499]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 27ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:28:33,085 [ 305848]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/karishma' karishmaXDebuggerManager took 21 ms 
+2019-09-20 17:28:33,166 [ 305929]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 210 ms 
+2019-09-20 17:28:36,336 [ 309099]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 13 to update, calculated in 0ms 
+2019-09-20 17:28:36,368 [ 309131]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 32ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:29:24,471 [ 357234]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 5 to update, calculated in 0ms 
+2019-09-20 17:29:24,500 [ 357263]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 29ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:30:24,788 [ 417551]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 9 to update, calculated in 0ms 
+2019-09-20 17:30:24,810 [ 417573]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 22ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:30:41,590 [ 434353]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 3 to update, calculated in 0ms 
+2019-09-20 17:30:41,613 [ 434376]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 22ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:32:56,401 [ 569164]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 11 to update, calculated in 0ms 
+2019-09-20 17:32:56,440 [ 569203]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 39ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:34:00,499 [ 633262]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 6 to update, calculated in 0ms 
+2019-09-20 17:34:00,539 [ 633302]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 39ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:34:09,430 [ 642193]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 2 to update, calculated in 0ms 
+2019-09-20 17:34:09,447 [ 642210]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 17ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:34:50,867 [ 683630]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 6 to update, calculated in 1ms 
+2019-09-20 17:34:50,892 [ 683655]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 25ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:35:46,233 [ 738996]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 9 to update, calculated in 0ms 
+2019-09-20 17:35:46,271 [ 739034]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 37ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:36:09,853 [ 762616]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 2 to update, calculated in 0ms 
+2019-09-20 17:36:09,862 [ 762625]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 9ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:37:09,538 [ 822301]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 11 to update, calculated in 0ms 
+2019-09-20 17:37:09,590 [ 822353]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 52ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:37:53,875 [ 866638]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 4 to update, calculated in 0ms 
+2019-09-20 17:37:53,885 [ 866648]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 10ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:38:07,341 [ 880104]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 6 to update, calculated in 0ms 
+2019-09-20 17:38:07,447 [ 880210]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 106ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:40:38,620 [1031383]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 7 to update, calculated in 0ms 
+2019-09-20 17:40:38,640 [1031403]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 19ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:40:53,483 [1046246]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 3 to update, calculated in 0ms 
+2019-09-20 17:40:53,493 [1046256]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 10ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:41:02,762 [1055525]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 5 to update, calculated in 0ms 
+2019-09-20 17:41:02,820 [1055583]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 57ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:41:26,873 [1079636]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 5 to update, calculated in 0ms 
+2019-09-20 17:41:26,931 [1079694]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 58ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:44:43,067 [1275830]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 15 to update, calculated in 0ms 
+2019-09-20 17:44:43,160 [1275923]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 93ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:46:33,924 [1386687]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 9 to update, calculated in 0ms 
+2019-09-20 17:46:34,019 [1386782]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 94ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:52:34,833 [1747596]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 6 to update, calculated in 0ms 
+2019-09-20 17:52:34,865 [1747628]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 32ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:55:49,498 [1942261]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 4 to update, calculated in 0ms 
+2019-09-20 17:55:49,518 [1942281]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 20ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 17:58:44,732 [2117495]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 6 to update, calculated in 1ms 
+2019-09-20 17:58:44,772 [2117535]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 40ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:01:34,995 [2287758]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 11 to update, calculated in 1ms 
+2019-09-20 18:01:35,079 [2287842]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 84ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:02:35,934 [2348697]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 6 to update, calculated in 0ms 
+2019-09-20 18:02:36,002 [2348765]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 68ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:03:03,003 [2375766]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 2 to update, calculated in 0ms 
+2019-09-20 18:03:03,012 [2375775]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 9ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:04:03,371 [2436134]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 9 to update, calculated in 1ms 
+2019-09-20 18:04:03,394 [2436157]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 23ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:04:18,916 [2451679]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 5 to update, calculated in 0ms 
+2019-09-20 18:04:18,935 [2451698]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 19ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:05:13,206 [2505969]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 5 to update, calculated in 0ms 
+2019-09-20 18:05:13,266 [2506029]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 60ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:07:17,513 [2630276]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 9 to update, calculated in 1ms 
+2019-09-20 18:07:17,583 [2630346]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 70ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:07:20,937 [2633700]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 1 to update, calculated in 0ms 
+2019-09-20 18:07:20,955 [2633718]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 17ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:10:31,484 [2824247]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 16 to update, calculated in 17ms 
+2019-09-20 18:10:31,555 [2824318]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 71ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:10:51,700 [2844463]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 7 to update, calculated in 0ms 
+2019-09-20 18:10:51,744 [2844507]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 44ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:11:03,641 [2856404]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 5 to update, calculated in 0ms 
+2019-09-20 18:11:03,666 [2856429]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 25ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:11:08,301 [2861064]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 1 to update, calculated in 2ms 
+2019-09-20 18:11:08,322 [2861085]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 21ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:12:41,799 [2954562]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 5 to update, calculated in 1ms 
+2019-09-20 18:12:41,828 [2954591]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 29ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:13:53,230 [3025993]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 5 to update, calculated in 1ms 
+2019-09-20 18:13:53,273 [3026036]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 43ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:14:08,269 [3041032]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 1 to update, calculated in 0ms 
+2019-09-20 18:14:08,319 [3041082]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 50ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:14:28,224 [3060987]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 6 to update, calculated in 0ms 
+2019-09-20 18:14:28,256 [3061019]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 31ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:14:36,715 [3069478]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 2 to update, calculated in 1ms 
+2019-09-20 18:14:36,740 [3069503]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 25ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:17:02,076 [3214839]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 9 to update, calculated in 0ms 
+2019-09-20 18:17:02,101 [3214864]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 25ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:17:18,894 [3231657]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 7 to update, calculated in 0ms 
+2019-09-20 18:17:18,921 [3231684]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 27ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:17:22,875 [3235638]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 1 to update, calculated in 1ms 
+2019-09-20 18:17:22,895 [3235658]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 20ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:18:47,508 [3320271]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 11 to update, calculated in 4ms 
+2019-09-20 18:18:47,575 [3320338]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 67ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:18:56,651 [3329414]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 4 to update, calculated in 0ms 
+2019-09-20 18:18:56,675 [3329438]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 24ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:19:10,115 [3342878]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 4 to update, calculated in 0ms 
+2019-09-20 18:19:10,148 [3342911]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 33ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:19:25,581 [3358344]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 4 to update, calculated in 0ms 
+2019-09-20 18:19:25,592 [3358355]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 11ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:19:35,572 [3368335]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 1 to update, calculated in 0ms 
+2019-09-20 18:19:35,623 [3368386]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 51ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:20:43,141 [3435904]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 7 to update, calculated in 0ms 
+2019-09-20 18:20:43,178 [3435941]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 37ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:20:53,086 [3445849]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 4 to update, calculated in 0ms 
+2019-09-20 18:20:53,119 [3445882]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 33ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:22:13,523 [3526286]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 16 to update, calculated in 0ms 
+2019-09-20 18:22:13,612 [3526375]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 89ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:22:30,229 [3542992]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 4 to update, calculated in 0ms 
+2019-09-20 18:22:30,240 [3543003]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 11ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:22:43,387 [3556150]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 5 to update, calculated in 0ms 
+2019-09-20 18:22:43,443 [3556206]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 56ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:57:50,262 [5663025]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 13 to update, calculated in 0ms 
+2019-09-20 18:57:50,324 [5663087]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 62ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:59:05,595 [5738358]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 5 to update, calculated in 0ms 
+2019-09-20 18:59:05,607 [5738370]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 12ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:59:27,119 [5759882]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 6 to update, calculated in 10ms 
+2019-09-20 18:59:27,138 [5759901]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 19ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:59:43,605 [5776368]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 3 to update, calculated in 0ms 
+2019-09-20 18:59:43,620 [5776383]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 15ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 18:59:55,471 [5788234]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 4 to update, calculated in 5ms 
+2019-09-20 18:59:55,495 [5788258]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 24ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 19:00:29,505 [5822268]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 7 to update, calculated in 0ms 
+2019-09-20 19:00:29,530 [5822293]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 25ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 19:00:34,710 [5827473]   WARN -   #com.intellij.ui.BalloonImpl - Not enough space to show: required [87 x 61], available [58 x 30] 
+2019-09-20 19:01:47,485 [5900248]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 8 to update, calculated in 0ms 
+2019-09-20 19:01:47,514 [5900277]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 29ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 19:02:24,075 [5936838]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 5 to update, calculated in 0ms 
+2019-09-20 19:02:24,112 [5936875]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 37ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 19:02:39,854 [5952617]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 5 to update, calculated in 0ms 
+2019-09-20 19:02:39,864 [5952627]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 10ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 19:02:49,347 [5962110]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 4 to update, calculated in 0ms 
+2019-09-20 19:02:49,378 [5962141]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 31ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 19:03:00,099 [5972862]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 5 to update, calculated in 0ms 
+2019-09-20 19:03:00,122 [5972885]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 23ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 19:03:13,309 [5986072]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 5 to update, calculated in 0ms 
+2019-09-20 19:03:13,334 [5986097]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 25ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 19:04:02,925 [6035688]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 5 to update, calculated in 0ms 
+2019-09-20 19:04:02,939 [6035702]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 14ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 19:04:13,448 [6046211]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 3 to update, calculated in 0ms 
+2019-09-20 19:04:13,473 [6046236]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 24ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 19:04:55,933 [6088696]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 2 to update, calculated in 0ms 
+2019-09-20 19:04:55,985 [6088748]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 52ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 19:04:57,845 [6090608]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 10 to update, calculated in 0ms 
+2019-09-20 19:04:57,883 [6090646]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 38ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-20 19:05:03,208 [6095971]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-09-20 19:05:03,208 [6095971]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-09-20 19:05:03,212 [6095975]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-09-20 19:05:03,212 [6095975]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-09-20 19:05:03,212 [6095975]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-09-20 19:05:03,414 [6096177]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-09-20 19:05:03,416 [6096179]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-09-20 19:05:03,423 [6096186]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 4433 auto-detected files
+Elapsed time on auto-detect: 5933 ms 
+2019-09-20 19:05:03,434 [6096197]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-09-20 19:05:03,437 [6096200]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-09-20 19:05:03,445 [6096208]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-09-20 19:05:03,457 [6096220]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-09-20 19:05:03,471 [6096234]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2019-09-23 09:37:48,418 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-09-23 09:37:48,684 [    266]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 208 ms 
+2019-09-23 09:37:49,191 [    773]   INFO -        #com.intellij.idea.Main - IDE: PyCharm (build #PC-192.6603.34, 10 Sep 2019 20:48) 
+2019-09-23 09:37:49,191 [    773]   INFO -        #com.intellij.idea.Main - OS: Linux (5.0.0-13-generic, amd64) 
+2019-09-23 09:37:49,192 [    774]   INFO -        #com.intellij.idea.Main - JRE: 11.0.3+12-b304.56 (JetBrains s.r.o) 
+2019-09-23 09:37:49,192 [    774]   INFO -        #com.intellij.idea.Main - JVM: 11.0.3+12-b304.56 (OpenJDK 64-Bit Server VM) 
+2019-09-23 09:37:49,192 [    774]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx984m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djdk.attach.allowAttachSelf -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/karishma/java_error_in_PYCHARM_%p.log -XX:HeapDumpPath=/home/karishma/java_error_in_PYCHARM.hprof -Didea.paths.selector=PyCharmCE2019.2 -Djb.vmOptionsFile=/home/karishma/.PyCharmCE2019.2/config/pycharm64.vmoptions -Didea.platform.prefix=PyCharmCore 
+2019-09-23 09:37:49,192 [    774]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-09-23 09:37:51,421 [   3003]   INFO - tellij.diagnostic.LoadingPhase - Reached SPLASH loading phase 
+2019-09-23 09:37:51,466 [   3048]   INFO - plication.impl.ApplicationImpl - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@3c63957c[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@7ec6cb35 
+2019-09-23 09:37:51,736 [   3318]   INFO - .intellij.idea.IdeaApplication - WM detected: GNOME Shell 
+2019-09-23 09:37:52,530 [   4112]   INFO - llij.ide.plugins.PluginManager - Plugin 'Configuration Script' can't be loaded because: Plugin does not include any module dependency tags in its plugin.xml therefore is assumed legacy and can be loaded only in IntelliJ IDEA 
+2019-09-23 09:37:52,577 [   4159]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Copyright (192.6603.34), EditorConfig (192.6603.34), Git (192.6603.34), GitHub (192.6603.34), IDEA CORE (192.6603.34), IntelliLang (192.6603.34), Machine Learning Code Completion (192.6603.34), Mercurial (192.6603.34), Properties (192.6603.34), Python Copyright (192.6603.34), Python IntelliLang (192.6603.34), Python ReStructureText Integration (192.6603.34), Python Terminal (192.6603.34), ReStructuredText Support (192.6603.34), Settings Repository (192.6603.34), Shell Script (192.6603.34), Subversion (192.6603.34), Task Management (192.6603.34), Terminal (192.6603.34), TextMate bundles (192.6603.34), YAML (192.6603.34) 
+2019-09-23 09:37:52,577 [   4159]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: Configuration Script (192.6603.34) 
+2019-09-23 09:37:53,765 [   5347]   INFO - tellij.diagnostic.LoadingPhase - Reached CONFIGURATION_STORE_INITIALIZED loading phase 
+2019-09-23 09:37:53,983 [   5565]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=931 
+2019-09-23 09:37:54,227 [   5809]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /snap/pycharm-community/150/bin/fsnotifier64 
+2019-09-23 09:37:54,258 [   5840]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-09-23 09:37:56,624 [   8206]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-09-23 09:37:56,705 [   8287]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2019-09-23 09:37:56,725 [   8307]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-09-23 09:37:57,494 [   9076]   INFO - il.indexing.FileBasedIndexImpl - File index extensions iterated:452 
+2019-09-23 09:37:57,724 [   9306]   INFO - j.ide.ui.OptionsTopHitProvider - 40 ms spent to cache options in application 
+2019-09-23 09:37:58,027 [   9609]   INFO - tellij.diagnostic.LoadingPhase - Reached FRAME_SHOWN loading phase 
+2019-09-23 09:37:59,529 [  11111]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2019-09-23 09:37:59,873 [  11455]   INFO - penapi.wm.impl.GlobalMenuLinux - created instance of GlobalMenuLinux for xid=0x1e00026 
+2019-09-23 09:38:03,507 [  15089]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-09-23 09:38:05,416 [  16998]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2019-09-23 09:38:05,431 [  17013]   INFO - ndex.PrebuiltIndexProviderBase - Using prebuilt id-index from /home/karishma/.PyCharmCE2019.2/system/index/.persistent/prebuilt/Python/id-index.input 
+2019-09-23 09:38:05,812 [  17394]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2019-09-23 09:38:06,876 [  18458]   INFO - pl$FileIndexDataInitialization - Initialization done:9834 
+2019-09-23 09:38:07,062 [  18644]   INFO - exImpl$StubIndexInitialization - Initialization done:185 
+2019-09-23 09:38:08,707 [  20289]   INFO - .diagnostic.PerformanceWatcher - Pushing Python language level to 6 roots in 1 SDKs took 491ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 09:38:10,853 [  22435]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 2 millis (read time: 1) 
+2019-09-23 09:38:10,943 [  22525]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 3027ms; general responsiveness: ok; EDT responsiveness: 1/3 sluggish, 1/3 very slow 
+2019-09-23 09:38:10,983 [  22565]   INFO - j.ide.ui.OptionsTopHitProvider - 911 ms spent to cache options in project 
+2019-09-23 09:38:12,142 [  23724]   INFO - tartup.impl.StartupManagerImpl - /home/karishma/.idea case-sensitivity: expected=true actual=true 
+2019-09-23 09:38:12,170 [  23752]   INFO - tellij.diagnostic.LoadingPhase - Reached PROJECT_OPENED loading phase 
+2019-09-23 09:38:12,317 [  23899]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-09-23 09:38:12,318 [  23900]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update canceled 
+2019-09-23 09:38:12,430 [  24012]   INFO - .diagnostic.PerformanceWatcher - Pushing Python language level to 6 roots in 1 SDKs took 15ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 09:38:12,446 [  24028]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 11938 ms 
+2019-09-23 09:38:17,224 [  28806]   INFO - ings.impl.UpdateCheckerService - channel: release 
+2019-09-23 09:38:17,388 [  28970]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/karishma' karishmaRunManager took 19 ms, TemplateDataLanguageMappings took 66 ms 
+2019-09-23 09:38:17,532 [  29114]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 436 ms 
+2019-09-23 09:38:31,679 [  43261]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/karishma' karishmaRunManager took 11 ms 
+2019-09-23 09:38:31,975 [  43557]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 19520ms; general responsiveness: ok; EDT responsiveness: 0/19 sluggish, 1/19 very slow 
+2019-09-23 09:38:33,111 [  44693]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 1134ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 09:38:33,112 [  44694]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 66 files to update 
+2019-09-23 09:38:34,205 [  45787]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 1093ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 09:38:34,214 [  45796]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 6 to update, calculated in 2ms 
+2019-09-23 09:38:34,246 [  45828]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 32ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 09:38:34,248 [  45830]   INFO - tellij.diagnostic.LoadingPhase - Reached INDEXING_FINISHED loading phase 
+2019-09-23 09:38:37,341 [  48923]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 46 ms 
+2019-09-23 09:38:37,341 [  48923]   INFO - ns.python.sdk.PythonSdkUpdater - Bogus sys.path entry /usr/lib/python37.zip 
+2019-09-23 09:38:37,342 [  48924]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK Python 3.7 (/usr/bin/python3.7)): /home/karishma/.PyCharmCE2019.2/system/python_stubs/-1247971762 
+2019-09-23 09:38:37,342 [  48924]   INFO - ns.python.sdk.PythonSdkUpdater - User skeletons directory for SDK Python 3.7 (/usr/bin/python3.7)): /snap/pycharm-community/150/helpers/python-skeletons 
+2019-09-23 09:38:37,352 [  48934]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK Python 3.7 (/usr/bin/python3.7) 
+2019-09-23 09:38:37,352 [  48934]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python3.7 
+2019-09-23 09:38:37,628 [  49210]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 256 ms 
+2019-09-23 09:38:37,631 [  49213]   INFO - tPregeneratedSkeletonsProvider - Home path is /snap/pycharm-community/150 
+2019-09-23 09:38:37,802 [  49384]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 140 ms 
+2019-09-23 09:38:38,026 [  49608]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background scan of packages for SDK Python 3.7 (/usr/bin/python3.7) 
+2019-09-23 09:38:38,029 [  49611]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python3.7 /snap/pycharm-community/150/helpers/packaging_tool.py list 
+2019-09-23 09:39:11,551 [  83133]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 18 to update, calculated in 0ms 
+2019-09-23 09:39:12,326 [  83908]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 774ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 09:40:00,590 [ 132172]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 4 to update, calculated in 0ms 
+2019-09-23 09:40:00,671 [ 132253]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 81ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 09:40:38,795 [ 170377]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 4 to update, calculated in 1ms 
+2019-09-23 09:40:38,824 [ 170406]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 29ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 09:41:11,453 [ 203035]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 2 to update, calculated in 0ms 
+2019-09-23 09:41:11,489 [ 203071]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 36ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 09:41:21,360 [ 212942]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 1 to update, calculated in 0ms 
+2019-09-23 09:41:21,411 [ 212993]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 51ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 09:41:35,076 [ 226658]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 2 to update, calculated in 0ms 
+2019-09-23 09:41:38,861 [ 230443]   INFO - ndex.PrebuiltIndexProviderBase - Using prebuilt sdk-stubs from /home/karishma/.PyCharmCE2019.2/system/index/.persistent/prebuilt/Python/sdk-stubs.input 
+2019-09-23 09:41:38,874 [ 230456]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 3797ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 09:41:55,011 [ 246593]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 3 to update, calculated in 0ms 
+2019-09-23 09:41:55,051 [ 246633]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 40ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 09:42:18,914 [ 270496]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 7 to update, calculated in 0ms 
+2019-09-23 09:42:18,997 [ 270579]   INFO - rationStore.ComponentStoreImpl - Saving appFileBasedIndex took 16 ms 
+2019-09-23 09:42:19,062 [ 270644]   INFO - rationStore.ComponentStoreImpl - Saving Module: 'karishma'PackageRequirementsSettings took 18 ms 
+2019-09-23 09:42:19,098 [ 270680]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 184ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 09:42:19,157 [ 270739]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/karishma' karishmaXDebuggerManager took 37 ms 
+2019-09-23 09:42:19,210 [ 270792]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 301 ms 
+2019-09-23 09:43:22,574 [ 334156]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 50 to update, calculated in 10ms 
+2019-09-23 09:43:22,744 [ 334326]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 170ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 09:53:30,254 [ 941836]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 15 to update, calculated in 0ms 
+2019-09-23 09:53:30,328 [ 941910]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 74ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 09:53:38,737 [ 950319]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 2 to update, calculated in 0ms 
+2019-09-23 09:53:38,761 [ 950343]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 24ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 09:55:15,694 [1047276]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 2 to update, calculated in 0ms 
+2019-09-23 09:55:15,762 [1047344]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 68ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 09:58:05,032 [1216614]   WARN - n.process.BaseOSProcessHandler - Process hasn't generated any output for a long time.
+If it's a long-running mostly idle daemon process, consider overriding OSProcessHandler#readerOptions with 'BaseOutputReader.Options.forMostlySilentProcess()' to reduce CPU usage.
+Command line: /usr/bin/python3.7 /home/karishma/Operators.py 
+java.lang.Throwable: Process creation:
+	at com.intellij.execution.process.BaseOSProcessHandler.<init>(BaseOSProcessHandler.java:33)
+	at com.intellij.execution.process.OSProcessHandler.<init>(OSProcessHandler.java:151)
+	at com.intellij.execution.process.OSProcessHandler.<init>(OSProcessHandler.java:38)
+	at com.intellij.execution.process.KillableProcessHandler.<init>(KillableProcessHandler.java:34)
+	at com.intellij.execution.process.ColoredProcessHandler.<init>(ColoredProcessHandler.java:24)
+	at com.intellij.execution.process.KillableColoredProcessHandler.<init>(KillableColoredProcessHandler.java:38)
+	at com.jetbrains.python.run.PythonProcessHandler.<init>(PythonProcessHandler.java:37)
+	at com.jetbrains.python.run.PythonProcessRunner.createProcess(PythonProcessRunner.java:37)
+	at com.jetbrains.python.run.PythonProcessRunner.createProcess(PythonProcessRunner.java:42)
+	at com.jetbrains.python.run.PythonCommandLineState.doCreateProcess(PythonCommandLineState.java:289)
+	at com.jetbrains.python.run.PythonScriptCommandLineState.doCreateProcess(PythonScriptCommandLineState.java:202)
+	at com.jetbrains.python.run.PythonCommandLineState.lambda$getDefaultPythonProcessStarter$0(PythonCommandLineState.java:239)
+	at com.jetbrains.python.run.PythonCommandLineState.startProcess(PythonCommandLineState.java:219)
+	at com.jetbrains.python.run.PythonCommandLineState.execute(PythonCommandLineState.java:145)
+	at com.jetbrains.python.run.PythonScriptCommandLineState.execute(PythonScriptCommandLineState.java:109)
+	at com.jetbrains.python.run.PythonCommandLineState.execute(PythonCommandLineState.java:139)
+	at com.jetbrains.python.run.PythonRunner.doExecute(PythonRunner.java:52)
+	at com.intellij.execution.runners.GenericProgramRunner$execute$$inlined$runProfileStarter$1.executeAsync(GenericProgramRunner.kt:56)
+	at com.intellij.execution.runners.GenericProgramRunnerKt$startRunProfile$$inlined$runProfileStarter$1.executeAsync(GenericProgramRunner.kt:56)
+	at com.intellij.execution.impl.ExecutionManagerKtImpl$startRunProfile$startRunnable$1.run(ExecutionManagerKtImpl.kt:63)
+	at com.intellij.openapi.application.TransactionGuardImpl.runSyncTransaction(TransactionGuardImpl.java:82)
+	at com.intellij.openapi.application.TransactionGuardImpl.lambda$submitTransaction$1(TransactionGuardImpl.java:106)
+	at com.intellij.openapi.application.TransactionGuardImpl.submitTransaction(TransactionGuardImpl.java:115)
+	at com.intellij.openapi.application.TransactionGuard.submitTransaction(TransactionGuard.java:121)
+	at com.intellij.execution.impl.ExecutionManagerKtImpl$startRunProfile$2.run(ExecutionManagerKtImpl.kt:116)
+	at com.intellij.execution.impl.ExecutionManagerImpl.compileAndRun(ExecutionManagerImpl.java:278)
+	at com.intellij.execution.impl.ExecutionManagerKtImpl.startRunProfile(ExecutionManagerKtImpl.kt:116)
+	at com.intellij.execution.runners.GenericProgramRunnerKt.startRunProfile(GenericProgramRunner.kt:50)
+	at com.intellij.execution.runners.GenericProgramRunner.execute(GenericProgramRunner.kt:17)
+	at com.intellij.execution.runners.BaseProgramRunner.execute(BaseProgramRunner.java:46)
+	at com.intellij.execution.runners.BaseProgramRunner.execute(BaseProgramRunner.java:35)
+	at com.intellij.execution.ProgramRunnerUtil.executeConfigurationAsync(ProgramRunnerUtil.java:92)
+	at com.intellij.execution.ProgramRunnerUtil.executeConfiguration(ProgramRunnerUtil.java:40)
+	at com.intellij.execution.impl.ExecutionManagerImpl.restart(ExecutionManagerImpl.java:94)
+	at com.intellij.execution.impl.ExecutionManagerImpl.access$300(ExecutionManagerImpl.java:45)
+	at com.intellij.execution.impl.ExecutionManagerImpl$3.run(ExecutionManagerImpl.java:470)
+	at com.intellij.util.concurrency.QueueProcessor.runSafely(QueueProcessor.java:231)
+	at com.intellij.util.Alarm$Request.runSafely(Alarm.java:368)
+	at com.intellij.util.Alarm$Request.run(Alarm.java:355)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at com.intellij.util.concurrency.SchedulingWrapper$MyScheduledFutureTask.run(SchedulingWrapper.java:224)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:312)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.doRun(LaterInvocator.java:433)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.runNextEvent(LaterInvocator.java:416)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:399)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:878)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:827)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:466)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:704)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:465)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2019-09-23 09:58:08,419 [1220001]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 3 to update, calculated in 0ms 
+2019-09-23 09:58:08,458 [1220040]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 39ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 09:59:01,005 [1272587]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 2 to update, calculated in 0ms 
+2019-09-23 09:59:01,039 [1272621]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 33ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 09:59:48,277 [1319859]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 1 to update, calculated in 0ms 
+2019-09-23 09:59:48,300 [1319882]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 23ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 10:00:55,475 [1387057]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 1 to update, calculated in 0ms 
+2019-09-23 10:00:55,510 [1387092]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 34ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 10:04:45,409 [1616991]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 8 to update, calculated in 1ms 
+2019-09-23 10:04:45,480 [1617062]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 71ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 10:07:07,009 [1758591]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 8 to update, calculated in 1ms 
+2019-09-23 10:07:07,086 [1758668]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 77ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 10:16:34,287 [2325869]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 6 to update, calculated in 0ms 
+2019-09-23 10:16:34,348 [2325930]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 61ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 10:16:34,348 [2325930]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 0 to update, calculated in 0ms 
+2019-09-23 10:17:44,609 [2396191]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 5 to update, calculated in 0ms 
+2019-09-23 10:17:44,665 [2396247]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 56ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 11:32:36,450 [6888032]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 14 to update, calculated in 2ms 
+2019-09-23 11:32:36,544 [6888126]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 94ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 11:32:52,681 [6904263]   INFO - .stubs.StubSerializationHelper - serialized properties.prop is ignored in unmodifiable stub serialization manager 
+2019-09-23 11:32:52,681 [6904263]   INFO - .stubs.StubSerializationHelper - serialized properties.propertieslist is ignored in unmodifiable stub serialization manager 
+2019-09-23 11:33:47,875 [6959457]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 6 to update, calculated in 0ms 
+2019-09-23 11:33:47,923 [6959505]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 48ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 11:34:21,083 [6992665]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 6 to update, calculated in 0ms 
+2019-09-23 11:34:21,125 [6992707]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 42ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 11:36:55,556 [7147138]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 6 to update, calculated in 0ms 
+2019-09-23 11:36:55,652 [7147234]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 95ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 11:38:24,159 [7235741]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 10 to update, calculated in 0ms 
+2019-09-23 11:38:24,244 [7235826]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 85ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 11:38:41,141 [7252723]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 3 to update, calculated in 0ms 
+2019-09-23 11:38:41,175 [7252757]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 34ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 11:39:16,350 [7287932]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 9 to update, calculated in 0ms 
+2019-09-23 11:39:16,405 [7287987]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 55ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 11:40:03,411 [7334993]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 4 to update, calculated in 0ms 
+2019-09-23 11:40:03,453 [7335035]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 42ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 11:40:15,207 [7346789]   WARN - j.openapi.wm.impl.IdeFrameImpl - Set preferredFocusableComponent in 'Operators' content in Run tool window to avoid focus-related problems. 
+2019-09-23 11:40:15,208 [7346790]   WARN - j.openapi.wm.impl.IdeFrameImpl - Comprehension tool window - parent container is hidden 
+2019-09-23 11:40:15,573 [7347155]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 3 to update, calculated in 1ms 
+2019-09-23 11:40:15,602 [7347184]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 29ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 11:41:00,189 [7391771]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 3 to update, calculated in 1ms 
+2019-09-23 11:41:00,210 [7391792]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 21ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 11:41:15,207 [7406789]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 2 to update, calculated in 0ms 
+2019-09-23 11:41:15,232 [7406814]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 25ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 11:41:17,461 [7409043]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 3 to update, calculated in 0ms 
+2019-09-23 11:41:17,520 [7409102]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 59ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 11:47:45,562 [7797144]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 29 to update, calculated in 1ms 
+2019-09-23 11:47:45,698 [7797280]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 136ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 11:47:49,035 [7800617]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 1 to update, calculated in 1ms 
+2019-09-23 11:47:49,086 [7800668]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 51ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 11:47:49,400 [7800982]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 115 ms 
+2019-09-23 11:48:50,267 [7861849]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 6 to update, calculated in 0ms 
+2019-09-23 11:48:50,300 [7861882]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 33ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 11:56:25,207 [8316789]   WARN - ewvfs.persistent.RefreshWorker - /home/karishma/snap/skype/common/.config/skypeforlinux/SingletonLock 
+java.nio.file.NoSuchFileException: /home/karishma/snap/skype/common/.config/skypeforlinux/SingletonLock
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:145)
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1763)
+	at com.intellij.openapi.vfs.newvfs.persistent.VfsEventGenerationHelper$1.visitFile(VfsEventGenerationHelper.java:129)
+	at com.intellij.openapi.vfs.newvfs.persistent.VfsEventGenerationHelper$1.visitFile(VfsEventGenerationHelper.java:102)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2724)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2796)
+	at com.intellij.openapi.vfs.newvfs.persistent.VfsEventGenerationHelper.scanChildren(VfsEventGenerationHelper.java:152)
+	at com.intellij.openapi.vfs.newvfs.persistent.VfsEventGenerationHelper.scheduleCreation(VfsEventGenerationHelper.java:70)
+	at com.intellij.openapi.vfs.newvfs.persistent.RefreshWorker.fullDirRefresh(RefreshWorker.java:202)
+	at com.intellij.openapi.vfs.newvfs.persistent.RefreshWorker.processQueue(RefreshWorker.java:127)
+	at com.intellij.openapi.vfs.newvfs.persistent.RefreshWorker.scan(RefreshWorker.java:99)
+	at com.intellij.openapi.vfs.newvfs.RefreshSessionImpl.scan(RefreshSessionImpl.java:149)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl.doScan(RefreshQueueImpl.java:171)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl.lambda$queueSession$1(RefreshQueueImpl.java:98)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:207)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$100(BoundedTaskExecutor.java:29)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.lambda$run$0(BoundedTaskExecutor.java:185)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:208)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:181)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-09-23 11:56:25,360 [8316942]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 29 to update, calculated in 1ms 
+2019-09-23 11:56:25,594 [8317176]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 234ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 11:59:09,513 [8481095]   WARN - j.openapi.wm.impl.IdeFrameImpl - Set preferredFocusableComponent in 'Operators' content in Run tool window to avoid focus-related problems. 
+2019-09-23 11:59:09,513 [8481095]   WARN - j.openapi.wm.impl.IdeFrameImpl - MethodsDemo tool window - parent container is hidden 
+2019-09-23 11:59:09,895 [8481477]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 7 to update, calculated in 0ms 
+2019-09-23 11:59:09,959 [8481541]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 64ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 12:00:26,440 [8558022]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 6 to update, calculated in 0ms 
+2019-09-23 12:00:26,468 [8558050]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 27ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 12:01:05,084 [8596666]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 4 to update, calculated in 0ms 
+2019-09-23 12:01:05,106 [8596688]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 22ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 12:12:15,923 [9267505]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 14 to update, calculated in 0ms 
+2019-09-23 12:12:16,027 [9267609]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 103ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 12:14:30,218 [9401800]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 9 to update, calculated in 0ms 
+2019-09-23 12:14:30,274 [9401856]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 56ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 12:14:59,489 [9431071]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 2 to update, calculated in 0ms 
+2019-09-23 12:14:59,506 [9431088]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 17ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 12:21:52,377 [9843959]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 44 to update, calculated in 7ms 
+2019-09-23 12:21:52,742 [9844324]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 365ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 12:21:57,694 [9849276]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 1 to update, calculated in 2ms 
+2019-09-23 12:21:57,720 [9849302]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 26ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 12:22:25,248 [9876830]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 5 to update, calculated in 0ms 
+2019-09-23 12:22:25,439 [9877021]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 191ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 12:22:35,380 [9886962]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 3 to update, calculated in 0ms 
+2019-09-23 12:22:35,420 [9887002]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 40ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 12:22:36,843 [9888425]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 1 to update, calculated in 0ms 
+2019-09-23 12:22:36,881 [9888463]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 38ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 12:22:56,648 [9908230]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 4 to update, calculated in 0ms 
+2019-09-23 12:22:56,681 [9908263]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 33ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 12:23:04,084 [9915666]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 1 to update, calculated in 0ms 
+2019-09-23 12:23:04,135 [9915717]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 51ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 12:23:05,045 [9916627]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 1 to update, calculated in 0ms 
+2019-09-23 12:23:05,069 [9916651]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 24ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 12:23:13,068 [9924650]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 1 to update, calculated in 1ms 
+2019-09-23 12:23:13,114 [9924696]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 45ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-09-23 12:23:14,132 [9925714]   INFO - s.roots.VcsRootProblemNotifier - Auto-registered following mappings: [VcsRootError{UNREGISTERED_ROOT - /home/karishma}] 
+2019-09-23 12:23:14,132 [9925714]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/karishma] 
+2019-09-23 12:23:14,150 [9925732]   INFO -  #git4idea.commands.GitHandler - [.] git version 
+2019-09-23 12:23:14,160 [9925742]   INFO -  #git4idea.commands.GitHandler - git version 2.20.1 
+2019-09-23 12:23:14,167 [9925749]   INFO - ea.config.GitExecutableManager - Git version for /usr/bin/git : 2.20.1 
+2019-09-23 12:23:14,809 [9926391]   INFO -   #git4idea.log.GitLogProvider - Fresh repository: file:///home/karishma 
+2019-09-23 12:23:14,816 [9926398]   INFO -   #git4idea.log.GitLogProvider - Fresh repository: file:///home/karishma 
+2019-09-23 12:23:17,387 [9928969]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 4 to update, calculated in 2ms 
+2019-09-23 12:23:17,472 [9929054]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 85ms; general responsiveness: ok; EDT responsiveness: ok 

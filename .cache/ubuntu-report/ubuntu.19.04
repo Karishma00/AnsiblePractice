@@ -1,0 +1,75 @@
+{
+  "Version": "19.04",
+  "OEM": {
+    "Vendor": "Dell Inc.",
+    "Product": "OptiPlex 3010"
+  },
+  "BIOS": {
+    "Vendor": "Dell Inc.",
+    "Version": "A05"
+  },
+  "Arch": "amd64",
+  "GPU": [
+    {
+      "Vendor": "8086",
+      "Model": "0102"
+    }
+  ],
+  "RAM": 8.1,
+  "Disks": [
+    500.1,
+    15.7
+  ],
+  "Partitions": [
+    147.7,
+    71.2,
+    15.3
+  ],
+  "Screens": [
+    {
+      "Size": "408mmx255mm",
+      "Resolution": "1440x900",
+      "Frequency": "59.89"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Language": "en_IN",
+  "Timezone": "Asia/Kolkata",
+  "Install": {
+    "Media": "Ubuntu 19.04 \"Disco Dingo\" - Release amd64 (20190416)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "manual",
+    "DownloadUpdates": true,
+    "Language": "en",
+    "Minimal": false,
+    "RestrictedAddons": false,
+    "Stages": {
+      "0": "language",
+      "1": "language",
+      "6": "console_setup",
+      "8": "prepare",
+      "50": "partman",
+      "55": "partman",
+      "56": "partman",
+      "68": "partman",
+      "84": "partman",
+      "100": "partman",
+      "117": "partman",
+      "132": "partman",
+      "149": "partman",
+      "160": "partman",
+      "162": "start_install",
+      "163": "timezone",
+      "168": "usersetup",
+      "185": "user_done",
+      "818": "done"
+    }
+  }
+}

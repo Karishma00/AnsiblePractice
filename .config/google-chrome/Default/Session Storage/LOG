@@ -1,0 +1,22 @@
+2019/09/23-09:36:04.077 ab3 Reusing MANIFEST Session Storage/MANIFEST-000001
+2019/09/23-09:36:04.078 ab3 Recovering log #11
+2019/09/23-09:36:04.302 ab3 Level-0 table #14: started
+2019/09/23-09:36:04.606 ab3 Level-0 table #14: 19150 bytes OK
+2019/09/23-09:36:04.606 ab3 Recovering log #13
+2019/09/23-09:36:04.664 ab3 Reusing old log Session Storage/000013.log 
+2019/09/23-09:36:05.074 ab3 Delete type=0 #11
+2019/09/23-09:37:27.539 b4a Level-0 table #16: started
+2019/09/23-09:37:27.618 b4a Level-0 table #16: 36445 bytes OK
+2019/09/23-09:37:27.644 b4a Delete type=0 #13
+2019/09/23-09:37:27.644 b4a Compacting 4@0 + 1@1 files
+2019/09/23-09:37:27.672 b4a Generated table #17@0: 280 keys, 40165 bytes
+2019/09/23-09:37:27.672 b4a Compacted 4@0 + 1@1 files => 40165 bytes
+2019/09/23-09:37:27.695 b4a compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/09/23-09:37:27.695 b4a Delete type=2 #10
+2019/09/23-09:37:27.695 b4a Delete type=2 #8
+2019/09/23-09:37:27.695 b4a Delete type=2 #14
+2019/09/23-09:37:27.695 b4a Delete type=2 #12
+2019/09/23-09:37:27.695 b4a Delete type=2 #16
+2019/09/23-12:21:39.797 3441 Level-0 table #19: started
+2019/09/23-12:21:39.876 3441 Level-0 table #19: 17479 bytes OK
+2019/09/23-12:21:39.903 3441 Delete type=0 #15

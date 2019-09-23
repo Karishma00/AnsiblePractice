@@ -1,0 +1,32 @@
+crash.main.2
+1569221495
+131c7df0-8329-ee20-674a-465379d23770
+AdapterDeviceID=0x0102
+AdapterDriverVendor=mesa/i965
+AdapterDriverVersion=19.0.8.0
+AdapterVendorID=0x8086
+Add-ons=formautofill%40mozilla.org:1.0,fxmonitor%40mozilla.org:3.0,screenshots%40mozilla.org:39.0.0,webcompat%40mozilla.org:5.0.2,langpack-en-GB%40firefox.mozilla.org:69.0,langpack-en-CA%40firefox.mozilla.org:69.0
+BuildID=20190831223935
+EMCheckCompatibility=true
+FramePoisonBase=9223372036600930304
+FramePoisonSize=4096
+InstallTime=1569221488
+IsWayland=0
+IsWaylandDRM=0
+Notes=Ubuntu 19.04FP(D00-L1000-W00000000-T000) WR? WR- OMTP? OMTP+3 
+ProductID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+ProductName=Firefox
+ReleaseChannel=release
+SafeMode=0
+ServerURL=https://crash-reports.mozilla.com/submit?id={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&version=69.0&buildid=20190831223935
+StartupCrash=0
+StartupTime=1569221488
+TelemetryEnvironment={"build":{"applicationId":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","applicationName":"Firefox","architecture":"x86-64","buildId":"20190831223935","version":"69.0","vendor":"Mozilla","displayVersion":"69.0","platformVersion":"69.0","xpcomAbi":"x86_64-gcc3","updaterAvailable":false},"partner":{"distributionId":null,"distributionVersion":null,"partnerId":null,"distributor":null,"distributorChannel":null,"partnerNames":[]},"system":{"memoryMB":7874,"virtualMaxMB":null,"cpu":{"count":4,"cores":2,"vendor":"GenuineIntel","family":6,"model":42,"stepping":7,"l2cacheKB":256,"l3cacheKB":3072,"speedMHz":3300,"extensions":["hasMMX","hasSSE","hasSSE2","hasSSE3","hasSSSE3","hasSSE4_1","hasSSE4_2","hasAVX"]},"os":{"name":"Linux","version":"5.0.0-13-generic","locale":"en-IN"},"hdd":{"profile":{"model":null,"revision":null,"type":null},"binary":{"model":null,"revision":null,"type":null},"system":{"model":null,"revision":null,"type":null}},"gfx":{"D2DEnabled":null,"DWriteEnabled":null,"ContentBackend":"Skia","Headless":false,"adapters":[{"description":"Mesa DRI Intel(R) Sandybridge Desktop ","vendorID":"0x8086","deviceID":"0x0102","subsysID":null,"RAM":1536,"driver":null,"driverVendor":"mesa/i965","driverVersion":"19.0.8.0","driverDate":null,"GPUActive":true}],"monitors":[{"screenWidth":1440,"screenHeight":900}],"features":{"compositor":"none","gpuProcess":{"status":"unavailable"},"wrQualified":{"status":"blocked-device-too-old"},"webrender":{"status":"opt-in"}}},"appleModelId":null},"settings":{"blocklistEnabled":true,"e10sEnabled":true,"e10sMultiProcesses":8,"telemetryEnabled":false,"locale":"en-US","intl":{},"update":{"channel":"release","enabled":true,"autoDownload":false},"userPrefs":{"browser.search.widget.inNavBar":false},"sandbox":{"effectiveContentProcessLevel":4},"addonCompatibilityCheckEnabled":true,"isDefaultBrowser":null},"profile":{}}
+Vendor=Mozilla
+Version=69.0
+useragent_locale=en-US
+TelemetrySessionId=45804b89-974c-467e-936f-244550568d25
+CrashTime=1569221495
+UptimeTS=7.0848554
+ThreadIdNameMapping=13281:"Gecko_IOThread",13282:"JS Watchdog",13283:"JS Helper",13285:"JS Helper",13284:"JS Helper",13286:"JS Helper",13288:"Link Monitor",13289:"Socket Thread",13287:"Timer",13298:"Cache2 I/O",13299:"Cookie",13301:"DOM Worker",13302:"IPDL Background",13311:"StreamTrans #10",13332:"StreamTrans #28",13333:"StreamTrans #29",13334:"StreamTrans #30",13339:"StreamTrans #35",13340:"GMPThread",13341:"Worker Launcher",13342:"SoftwareVsyncThread",13343:"Compositor",13344:"ImgDecoder #1",13345:"ImageIO",
+MinidumpSha256Hash=eeb4d428baff396c06f5c07517a7b5194f1d3cab1b5f503200d4f9343fa144a4

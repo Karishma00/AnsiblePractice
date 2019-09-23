@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="libreoffice-calc.desktop" score="33.21240234375" last-seen="1569219391"/>
+    <application id="org.gnome.Nautilus.desktop" score="15.0029296875" last-seen="1569219213"/>
+    <application id="pycharm-community_pycharm-community.desktop" score="392.828125" last-seen="1569221115"/>
+    <application id="gnome-initial-setup.desktop" score="3.814697265625e-06" last-seen="1569016427"/>
+    <application id="firefox.desktop" score="2340.5500869750977" last-seen="1568977252"/>
+    <application id="org.gnome.Terminal.desktop" score="3.01690673828125" last-seen="1569219116"/>
+    <application id="libreoffice-writer.desktop" score="54.3831787109375" last-seen="1569220720"/>
+    <application id="google-chrome.desktop" score="19798.246978759766" last-seen="1569221378"/>
+    <application id="org.gnome.FileRoller.desktop" score="4" last-seen="1569211943"/>
+    <application id="org.gnome.Software.desktop" score="8.0057373046875" last-seen="1569219234"/>
+    <application id="gnome-control-center.desktop" score="3" last-seen="1569218546"/>
+    <application id="update-manager.desktop" score="0" last-seen="1568977300"/>
+    <application id="org.gnome.Shell.PortalHelper.desktop" score="432.50043106079102" last-seen="1569218544"/>
+    <application id="skype_skypeforlinux.desktop" score="47" last-seen="1569221276"/>
+  </context>
+</application-state>
