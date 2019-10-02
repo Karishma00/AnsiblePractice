@@ -1,0 +1,16 @@
+-
+  name: Greater or Not
+  hosts: localhost
+  vars:
+    a: 10
+    b: 10
+  tasks:
+    - name: Equals or not  ??
+      debug:
+        msg: "a '{{a}}' is equals to b '{{b}}'"
+      when: a==b
+
+
+
+
+

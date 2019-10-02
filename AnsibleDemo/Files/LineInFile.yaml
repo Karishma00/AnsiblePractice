@@ -1,0 +1,13 @@
+-
+  name: Line in file demo
+  hosts: all
+  tasks:
+    - name: Create a file if it does not exist
+      file:
+        path: Karishma/writing.txt
+        state: touch
+        mode: '7777' #for readable and executable file
+
+    - lineinfile:
+            path: Karishma/writing.txt
+            line: 'Added the new line by line In file module'

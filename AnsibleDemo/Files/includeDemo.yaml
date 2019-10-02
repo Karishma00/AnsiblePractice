@@ -1,0 +1,9 @@
+- hosts: localhost
+  tasks:
+    - debug:
+        msg: play1
+
+- name: Include a File looping
+  include: LoopingEx.yaml
+
+

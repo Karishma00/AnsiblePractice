@@ -1,0 +1,12 @@
+-
+  name: Check the status of service and email if it is down
+  hosts: localhost
+  tasks:
+    - command: service sshd status
+      register: s
+    - mail:
+          to: Admins <system.admin@company.com>
+          subject: Service Alert
+          body: 'Service {{ansible_hostname}} is down.'
+      when: s.stdout.find('down') != -1
+

@@ -1,0 +1,10 @@
+-
+  name: Print the values of list fruit
+  hosts: all
+
+  tasks:
+    - name: Fruits
+      shell: echo {{item}}
+      loop: ['Banana','Apple','Orange']
+      register: echo
+

@@ -1,0 +1,13 @@
+-
+  name: Retrieve the File data #Variable Demo
+  hosts: all
+  tasks:
+    - name: get contents of file
+      command: cat Karishma/writing.txt
+      register: filename
+
+    - name: viewing the contents
+      debug:
+        msg: "{{filename.stdout}}"
+
+

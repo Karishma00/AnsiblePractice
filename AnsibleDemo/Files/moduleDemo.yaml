@@ -1,0 +1,13 @@
+-
+  name: play1 #Create the directory and file and execute date commnad
+  hosts: all
+  tasks:
+   - name: date command execute
+     command: date
+   - name: Create a directory if it does not exist
+     file:
+       path: Karishma/reading.txt
+       state: directory
+       mode: '0755' #for readable and executable file
+
+

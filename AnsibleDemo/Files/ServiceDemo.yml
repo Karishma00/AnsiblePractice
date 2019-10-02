@@ -1,0 +1,9 @@
+-
+  name: starts the services in order
+  hosts: all
+  tasks:
+    - name: Restart  the ssh server
+      service:
+        name: sshd
+        state: started
+

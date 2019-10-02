@@ -1,0 +1,10 @@
+-
+  name: Install the Python and httpie # cli interaction
+  hosts: all
+  tasks:
+    - name: Install Apache
+      become: true
+      become_method: sudo
+      yum:
+        name: httpie
+        state: present
