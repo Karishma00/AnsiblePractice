@@ -1,0 +1,6 @@
+-
+  name: Create the folder
+  file:
+    path: /tmp/Karishma
+    state: directory
+

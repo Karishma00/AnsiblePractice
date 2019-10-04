@@ -1,6 +1,6 @@
 -
   name: Print the values of list fruit
-  hosts: all
+  hosts: localhost
 
   tasks:
     - name: Fruits

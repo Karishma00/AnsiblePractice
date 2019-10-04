@@ -1,0 +1,5 @@
+-
+  name: Create the folder in another system
+  hosts: all
+  tasks:
+    - include: task.yaml

@@ -1,0 +1,6 @@
+-
+  name: Tetsing the module
+  hosts: localhost
+  tasks:
+    - name: Testing
+      module:

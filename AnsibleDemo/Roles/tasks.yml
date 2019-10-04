@@ -1,0 +1,7 @@
+tasks:
+    - name: Install Nmap
+      become: true
+      become_method: sudo
+      yum:
+        name: nmap
+        state: present

@@ -7,11 +7,7 @@
       - name: Child or not ??
         shell: 'echo "I am a Child"'
         when: age < 18
-          debug:
-            msg: "{{Child}}"
 
       - name: Adult or not ?
         shell: 'echo "I am an Adult"'
         when: age >= 18
-          debug:
-            msg: "{{Adult}}"
